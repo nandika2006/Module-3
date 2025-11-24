@@ -9,9 +9,15 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 3. Use the `in` operator to check if the integer `8` exists within the tuple.
 4. Print the results.
 
-## 🧾 Program
-Add code here
+## 🧾 Program :
 
-## Output
+    t = ("s", 8, "a", "v", "n", "g", "u", "r", "c", "e")
+    print(8 in t)
+    print('n' in t)
 
-## Result
+## Output :
+
+<img width="819" height="197" alt="image" src="https://github.com/user-attachments/assets/b5be30af-1f54-4c24-a157-dd07075ded68" />
+
+## Result :
+Thus the program that checks if the element 'n' and the element 8 exist within a given tuple has been executed successfully.
