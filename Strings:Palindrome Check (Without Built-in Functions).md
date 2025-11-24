@@ -11,10 +11,23 @@ To write a Python program to check whether the string `"google"` is a **palindro
    - Otherwise, print that it is not a palindrome.
 4. Execute the program.
 
-## 🧾 Program
+## 🧾 Program :
 
-Add code here
+      def palindrome(a):
+          l=[]
+          for i in a:
+              l.append(i)
+          l2=l[::-1]
+          if l==l2:
+              print("The entered string is palindrome")
+          else:
+              print("The entered string is not palindrome")
+      s=input() 
+      palindrome(s)
+      
+## Output :
+<img width="1162" height="226" alt="image" src="https://github.com/user-attachments/assets/9a629875-54fe-4662-bb60-e2eb26ef4fc0" />
 
-## Output
+## Result :
+Thus the program to check whether the string "google" is a palindrome or not, without using built-in palindrome checking functions has been executed successfully.
 
-## Result
